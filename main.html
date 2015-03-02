@@ -7,26 +7,30 @@
 		<!--[if lt IE 9]>
 		<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/htm5.js"></script>
 		<![endif]-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		<link rel="stylesheet/less" type="text/css" href="stylesheet/styles.less" />
+        <link rel="stylesheet/less" type="text/css" href="stylesheet/styles.less" />
 		<!--<script src="scripts/less.min.js"></script>-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.3.1/less.min.js"></script>		
-		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.3.1/less.min.js" rel="javascript"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body>
-		<header role="banner">
+	<body class="body">
+		<header class="mainHeader" role="banner">
+        <nav class="navigation" role="navigation">
+                <ul>
+                    <!-- Navigation goes here -->
+                    <li class="active"><a href="#" title="Home page">Home</a></li>
+                    <li><a href="#" title="Read our informationals page">Informations</a></li>
+                    <li><a href="http://www.alphapsilambda.net/" title="Check out our nationals website" target="_blank">Nationals</a></li>
+                    <li><a href="#" title="View our members">Members</a></li>
+                </ul>
+            </nav>
+			<div class="bg">
+			</div>
 			<h1>Alpha Psi Lambda Zeta Chapter</h1>
-			<p>together we shall seek the noblest!</p>
-			<nav role="navigation">
-				<!-- Navigation goes here -->
-				<li><a href="#" title="Home page">Home</a></li>
-				<li><a href="#" title="Read our informationals page">Informations</a></li>
-				<li><a href="http://www.alphapsilambda.net/" title="Check out our nationals website" target="_blank">Nationals</a></li>
-				<li><a href="#" title="View our members">Members</a></li>
-			</nav>
+			<p class="creed">together we shall seek the noblest!</p>
 		</header>
-		<main role="main">
-			<article role="article">
+		<main class="mainContent" role="main">
+			<article class="content" role="article">
 				<div class="col-xs-12 col-md-4">
 					<h2>What do we represent?</h2>
 					<p>Alpha Psi Lambda is the nation's <strong>First and Largest</strong> Co-ed Latino oriented Social Greek Fraternity. We are family-based organization that breaks through sterotypical boundaries and eases its way into a plethora of cultures. We are a unique Greek Fraternity where only the Noblest Brothers and Sisters come together to form the great family that Alpha Psi Lambda represents.</p>
@@ -38,7 +42,7 @@
 					</figure>
 				</div>
 			</article>
-			<article role="article">
+			<article class="content" role="article">
 				<h2>Chapter History</h2>
 				<p>
 					One night in <time datetime="1991-10">October of 1991</time> at the UIC's Rafael Cintron Cultural Center, Eliezer Perez and Derrick Cabrera were talking about creating an organization. Saul Garcia, who is one 
@@ -56,9 +60,11 @@
 				<p>
 					On <time datetime="1993-04-24 03:24-06:00">April 24, 1993 at 3:24 AM</time>, after being on line for <b>155 days</b> the twelve remaining students crossed over and the <b>Alpha Psi Lambda, Zeta Chapter</b> was <b>founded</b>.
 				</p>
+				<div class="bg">
+				</div>
 			</article>
 		</main>
-		<section>
+		<section class="top-sidebar">
 			<h2>Chapter Information</h2>
 			<!-- Executive Board & Dean of Pleadges -->
 			<article>
@@ -68,11 +74,11 @@
 				<h3>Dean of Pledges</h3>
 			</article>
 		</section>
-		<aside role="complementary">
+		<aside class="bottom-sidebar" role="complementary">
 			<!-- Events -->
 			<h3>Events</h3>
 		</aside>
-		<footer role="contentifo">
+		<footer class="mainFooter" role="contentifo">
 			<p>University of Illinois at Chicago</p>
 			<p><a href="http://www.linkedin.com/pub/andrew-lobban/39/94b/8aa" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Andrew Lobban's LinkedIn profile" style="vertical-align:middle;" border="0">&nbsp;View Andrew Lobban's profile</span></a></p>
 			<p><small>&copy; Copyright 2015</small></p>
